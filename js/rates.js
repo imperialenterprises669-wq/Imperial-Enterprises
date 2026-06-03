@@ -1,5 +1,5 @@
 const rates = {
-gold999: 1580000,
+gold999: 1540000,
 gold995: 1540000,
 goldCoin: 15800,
 silver999: 275000,
