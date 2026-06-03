@@ -1,10 +1,10 @@
 const rates = {
-gold999: 1540000,
-gold995: 1540000,
-goldCoin: 15800,
-silver999: 275000,
-goldSpot: 4490,
-silverSpot: 75.204,
-usdInr: 95.445,
-updated: "03 June 2026 3:00 PM"
+gold999: 155661,
+gold995: 154783,
+goldCoin: 156500,
+silver999: 265400,
+goldSpot: 4485.15,
+silverSpot: 75.13,
+usdInr: 95.45,
+updated: "03 June 2026 9:10 AM"
 };
