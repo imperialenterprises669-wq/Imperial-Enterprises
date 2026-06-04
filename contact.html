@@ -97,8 +97,8 @@ placeholder="Mobile Number">
 placeholder="Your Message">
 </textarea>
 
-<button type="submit">
- Send Message
+<button type="button" onclick="sendWhatsApp()">
+Send Message
 </button>
 
 </form>
@@ -139,5 +139,33 @@ imperialenterprises669@gmail.com
 </footer>
  
 <script src="js/app.js"></script>
+    
+<script>
+function sendWhatsApp() {
+
+const name = document.querySelector('input[type="text"]').value;
+const email = document.querySelector('input[type="email"]').value;
+const mobile = document.querySelector('input[type="tel"]').value;
+const message = document.querySelector('textarea').value;
+
+const whatsappMessage =
+`*New Contact Enquiry*
+
+Name: ${name}
+Email: ${email}
+Mobile: ${mobile}
+
+Message:
+${message}`;
+
+const phone = "919321108273";
+
+window.open(
+`https://wa.me/${phone}?text=${encodeURIComponent(whatsappMessage)}`,
+'_blank'
+);
+
+}
+</script>
 </body>
 </html>
